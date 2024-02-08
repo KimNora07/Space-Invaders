@@ -8,6 +8,10 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     public bool isGameActive;
     public int PlayerHP = 3;
+    public bool isShot = false;
+
+    public GameObject Bullet;
+    public Transform player;
 
     private void Awake()
     {
